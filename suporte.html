@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suporte — Câmbio Multimoedas</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 720px; margin: 0 auto; padding: 40px 20px; color: #1c1c1e; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #f2f2f7; background: #1c1c1e; } }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h2 { font-size: 19px; margin-top: 32px; }
+  .sub { color: #8e8e93; font-size: 14px; margin-top: 0; }
+  .contato {
+    border-left: 3px solid #34c759; padding: 12px 16px; margin: 24px 0;
+    background: rgba(52,199,89,.08); border-radius: 0 8px 8px 0;
+  }
+  dt { font-weight: 600; margin-top: 16px; }
+  dd { margin: 4px 0 0 0; }
+  footer { margin-top: 48px; font-size: 14px; color: #8e8e93; }
+</style>
+</head>
+<body>
+
+<h1>Suporte</h1>
+<p class="sub">Câmbio Multimoedas</p>
+
+<div class="contato">
+  <strong>Contato:</strong> <a href="mailto:mariosouza@mac.com">mariosouza@mac.com</a><br>
+  Respondo em até alguns dias úteis.
+</div>
+
+<h2>Perguntas frequentes</h2>
+<dl>
+  <dt>De onde vêm as cotações?</dt>
+  <dd>A cotação comercial vem do Banco Central do Brasil — a PTAX oficial e o arquivo de fechamento diário. A cotação de mercado intradiária vem da AwesomeAPI. A fonte e o horário de cada valor aparecem na tela de detalhe da moeda.</dd>
+
+  <dt>Por que a cotação não muda nos fins de semana e feriados?</dt>
+  <dd>O Banco Central não publica a PTAX nesses dias. O aplicativo mostra o último boletim disponível, sempre com a data e a hora.</dd>
+
+  <dt>O que é a "Cotação turismo"?</dt>
+  <dd>É calculada a partir da cotação comercial usando os percentuais de spread que você mesmo define em Ajustes, moeda por moeda. Não é uma cotação de casa de câmbio.</dd>
+
+  <dt>O que a aba Paridade mostra?</dt>
+  <dd>A paridade é o ponto médio entre compra e venda, sem spread de nenhum lado. Serve de régua para comparar quanto um cartão de crédito cobra a mais, somando IOF e spread do banco — ambos ajustáveis na própria tela.</dd>
+
+  <dt>Os alertas funcionam com o aplicativo fechado?</dt>
+  <dd>De forma limitada. O iOS não permite monitorar preços continuamente sem um servidor. Os alertas são verificados quando o aplicativo abre, quando você atualiza e, quando o sistema permitir, em uma execução oportunista em segundo plano.</dd>
+
+  <dt>O aplicativo funciona sem internet?</dt>
+  <dd>Sim. Ele exibe a última cotação salva, indicando claramente a data e a hora dela.</dd>
+
+  <dt>Como adicionar outras moedas?</dt>
+  <dd>Em Ajustes, na seção Moedas, você ativa ou desativa cada uma das moedas disponíveis.</dd>
+</dl>
+
+<h2>Privacidade</h2>
+<p>O aplicativo não coleta nenhum dado pessoal. Consulte a <a href="./">política de privacidade</a>.</p>
+
+<footer>Câmbio Multimoedas — aplicativo pessoal de consulta de cotações de câmbio.</footer>
+
+</body>
+</html>
